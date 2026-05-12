@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Local outputs and drafts
+study_outputs/
+study_outputs_*/
+paper/
+*.tiff
+*.png
+*.jpg
+*.svg
+*.pdf
+*.doc
+*.docx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.bak

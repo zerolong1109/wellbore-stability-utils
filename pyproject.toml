@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wellbore-stability-utils"
+version = "0.1.0"
+description = "Small utilities for organizing wellbore-stability analysis results."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "zerolong1109" }]
+keywords = [
+  "wellbore-stability",
+  "collapse-pressure",
+  "mogi-coulomb",
+  "scientific-software"
+]
+
+[project.urls]
+Repository = "https://github.com/zerolong1109/wellbore-stability-utils"
+
+[tool.setuptools.packages.find]
+where = ["src"]

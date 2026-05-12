@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "wellbore-stability-utils"
+version: 0.1.0
+date-released: 2026-05-12
+authors:
+  - name: "zerolong1109"
+license: MIT
+repository-code: "https://github.com/zerolong1109/wellbore-stability-utils"
+abstract: >
+  A small Python utility package for organizing wellbore-stability analysis
+  results, including deterministic candidate ranking, unit conversion helpers,
+  angle normalization, and Markdown validation summaries.
+keywords:
+  - wellbore stability
+  - collapse pressure
+  - scientific software
+  - result reporting
+  - unit conversion
