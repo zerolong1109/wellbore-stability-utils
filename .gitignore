@@ -10,10 +10,7 @@ venv/
 env/
 .env
 
-# Local outputs and drafts
-study_outputs/
-study_outputs_*/
-paper/
+# Local outputs
 *.tiff
 *.png
 *.jpg
