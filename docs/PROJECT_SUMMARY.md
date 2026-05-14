@@ -21,3 +21,12 @@ The package is not a complete geomechanics simulator. It provides reusable utili
 - avoid external dependencies
 - make examples easy to inspect
 - keep behavior covered by unit tests
+
+## Maintenance Notes
+
+The package is maintained as a public utility project. The current maintenance focus is:
+
+- preserving simple APIs for small scripts and notebooks
+- keeping mechanics helpers covered by hand-checkable tests
+- improving examples and documentation as users encounter common workflows
+- reviewing contributions for clarity, units, and numerical assumptions

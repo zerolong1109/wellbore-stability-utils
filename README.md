@@ -3,6 +3,8 @@
 Small Python utilities and baseline mechanics helpers for wellbore-stability
 analysis.
 
+[![CI](https://github.com/zerolong1109/wellbore-stability-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/zerolong1109/wellbore-stability-utils/actions/workflows/ci.yml)
+
 The package focuses on routine tasks that show up around numerical studies:
 
 - ranking candidate results and selecting the controlling envelope value
@@ -15,6 +17,16 @@ The package focuses on routine tasks that show up around numerical studies:
 - rendering compact validation summaries in Markdown
 
 It is intentionally lightweight and has no runtime dependencies outside the Python standard library.
+
+## Project Status
+
+This is an actively maintained public utility package for a specialized
+scientific and engineering workflow. The current scope is deliberately small:
+well-tested baseline mechanics helpers, result-ranking utilities, and reporting
+helpers that can be reused in scripts, notebooks, and validation pipelines.
+
+The maintainer handles API design, implementation, tests, issue triage, release
+notes, and repository maintenance.
 
 ## Installation
 
@@ -54,6 +66,13 @@ print(round(margin, 3))
 ```bash
 python -m unittest discover -s tests
 ```
+
+## Maintenance
+
+- Issues and pull requests are welcome for bug reports, documentation fixes, and small utility additions.
+- New numerical helpers should include unit tests and a short example when useful.
+- Security issues should be reported according to [SECURITY.md](SECURITY.md).
+- Contributor guidance is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Repository Layout
 
